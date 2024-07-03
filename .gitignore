@@ -1,0 +1,32 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders
+_vendor/
+bin/
+pkg/
+benchmarks/
+testing/
+
+# OS generated files
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Compiled Go binaries
+*.exe
+*.test
+*.prof
+*.out
+
+# Log files
+*.log
+
+# Local configuration file (this is generally used for development only)
+/config.local
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
